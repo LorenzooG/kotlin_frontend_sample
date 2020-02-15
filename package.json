@@ -1,0 +1,28 @@
+{
+  "name": "kotlin_frontend_sample",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@jetbrains/kotlin-css": "^1.0.0-pre.91",
+    "@jetbrains/kotlin-css-js": "^1.0.0-pre.91",
+    "@jetbrains/kotlin-react-router-dom": "*",
+    "@jetbrains/kotlin-styled": "^1.0.0-pre.91",
+    "inline-style-prefixer": "^5.1.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "react-scripts-kotlin": "4.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts-kotlin start",
+    "build": "react-scripts-kotlin build",
+    "eject": "react-scripts-kotlin eject",
+    "gen-idea-libs": "react-scripts-kotlin gen-idea-libs",
+    "get-types": "react-scripts-kotlin get-types --dest=src/types",
+    "postinstall": "npm run gen-idea-libs"
+  }
+}
